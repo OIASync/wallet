@@ -1,0 +1,15 @@
+/* Ensure the body and html take up the full height of the page */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/* Container for the centered photo */
+.photo-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
